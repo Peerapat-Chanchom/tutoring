@@ -1,0 +1,26 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="#" class="navbar-brand">บุญชู ติวเตอร์</a>
+    
+    <button class="navbar-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    
+    <ul class="navbar-menu" [class.active]="isMenuOpen">
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="closeMenu()">Home</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="closeMenu()">About</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="closeMenu()">Services</a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link" (click)="closeMenu()">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
