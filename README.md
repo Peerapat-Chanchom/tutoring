@@ -1,4 +1,18 @@
-# Tutoring
+## ลง node กับ npm
+Node: 20.14.0 npm: 10.7.0
+
+## วิธีเช็ค
+node -v , npm -v
+
+## เสร็จแล้วลง CLI
+npm install -g @angular/cli@18.0.1
+## วิธีเช็ค
+ng version
+
+## เสร็จแล้วรันด้วย
+ng s
+
+<!-- # Tutoring
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
@@ -24,4 +38,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page. -->
+
+
+
